@@ -18,11 +18,13 @@ body {
     background-color: rgb(42, 18, 91);
     width: 400px;
     overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .card-footer {
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .ribbon {
@@ -35,4 +37,19 @@ body {
     right: -35px;
     padding-top: 5px;
     padding-bottom: 5px;
+    z-index: 4;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.img {
+    width: 50px;
+}
+
+.para {
+    line-height: 1.5rem;
 }
